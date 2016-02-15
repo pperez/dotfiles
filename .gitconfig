@@ -3,3 +3,5 @@
 	email = pperez@boaboa.org
 [color]
 	ui = auto
+[push]
+	default = simple
