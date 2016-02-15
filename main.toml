@@ -2,5 +2,6 @@
     links = [
         [".gitconfig"],
         [".custom-oh-my-zsh"],
-        [".zshrc"]
+        [".zshrc"],
+        [".smartcd_config"]
     ]
