@@ -4,5 +4,6 @@
         [".custom-oh-my-zsh"],
         [".zshrc"],
         [".smartcd_config"],
-        [".gitignore_global"]
+        [".gitignore_global"],
+	[".profile"]
     ]
