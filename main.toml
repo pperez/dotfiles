@@ -3,5 +3,6 @@
         [".gitconfig"],
         [".custom-oh-my-zsh"],
         [".zshrc"],
-        [".smartcd_config"]
+        [".smartcd_config"],
+        [".gitignore_global"]
     ]
