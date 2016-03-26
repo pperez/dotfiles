@@ -29,3 +29,4 @@ export PATH="$PATH:$HOME/.local/share/apache-cxf/bin"
 [ -r "$HOME/.smartcd_config" ] && ( [ -n $BASH_VERSION ] || [ -n $ZSH_VERSION ] ) && source ~/.smartcd_config
 
 export IBUS_ENABLE_SYNC_MODE=1
+export SWT_GTK3=1
