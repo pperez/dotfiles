@@ -84,3 +84,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 [ -r "$HOME/.smartcd_config" ] && ( [ -n $BASH_VERSION ] || [ -n $ZSH_VERSION ] ) && source ~/.smartcd_config
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/home/pperez/.sdkman"
+[[ -s "/home/pperez/.sdkman/bin/sdkman-init.sh" ]] && source "/home/pperez/.sdkman/bin/sdkman-init.sh"

@@ -30,3 +30,7 @@ export PATH="$PATH:$HOME/.local/share/apache-cxf/bin"
 
 export IBUS_ENABLE_SYNC_MODE=1
 export SWT_GTK3=1
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/home/pperez/.sdkman"
+[[ -s "/home/pperez/.sdkman/bin/sdkman-init.sh" ]] && source "/home/pperez/.sdkman/bin/sdkman-init.sh"
