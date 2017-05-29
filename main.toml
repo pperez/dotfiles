@@ -1,11 +1,8 @@
 [tasks.default]
-    links = [
-        [".gitconfig"],
-        [".custom-oh-my-zsh"],
-        [".zshrc"],
-        [".smartcd_config"],
-        [".gitignore_global"],
-        [".local/share/umake/ide/spring-tools-suite/STS.ini"],
-        [".profile"],
-        [".smartcd/scripts"]
-    ]
+  links = [
+    [".gitconfig"],
+    [".custom-oh-my-zsh"],
+    [".zshrc"],
+    [".gitignore_global"],
+    [".profile"]
+  ]
