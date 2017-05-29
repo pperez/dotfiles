@@ -1,7 +1,5 @@
 #
-## Docker
+## "Deshabilita" el timeout de httpie
 #
 
-alias figstop="docker-compose stop"
-alias figup="docker-compose up -d"
-alias figrestart="figstop && figup"
+alias http="http --timeout 864000"

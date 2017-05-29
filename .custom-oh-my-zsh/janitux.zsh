@@ -1,3 +1,9 @@
-unsetopt share_history # Personalmente me marea ver el historial de las otras sesiones
+#
+## Settings personales ZSH
+#
 
-zstyle ":completion:*:commands" rehash 1 # Tener disponibles los comandos a penas esten disponibles
+# Deshabilitar historial de otras sesiones de zsh
+unsetopt share_history
+
+# Los comandos estan disponibles en seguida, sin tener que recargar la shell
+zstyle ":completion:*:commands" rehash 1
