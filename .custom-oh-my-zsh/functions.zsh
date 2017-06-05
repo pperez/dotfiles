@@ -1,5 +1,6 @@
 #
 ## Consulta el servicio REST de sepa usando httpie
+## Necesita httpie y "pass" funcionando, con la clave de sepa almacenada en sepa/rest (formato username:password)
 #
 
 function sepahttp {
@@ -23,4 +24,11 @@ function sepahttp {
   http -a $(pass show sepa/rest) $@ ${URL}
 }
 
-#alias sepahttp="http -a ${SEPA_REST_USERNAME}:${SEPA_REST_PASSWORD} ${SEPA_REST_ENDPOINT}"
+#
+## Consulta los endpoints disponibles en wiremock (localhost:8081)
+## Necesita httpie y jq
+#
+
+function mock-ls {
+  http http://localhost:8081/__admin/ | jq '[.mappings[] | {url: .request.url, method: .request.method, status: .response.status, file: .response.bodyFileName}]'
+}
