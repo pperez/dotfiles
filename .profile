@@ -31,8 +31,19 @@ export SWT_GTK3=1
 #
 ## Desarrollo con spring y spring cloud
 #
+export JAVA_HOME=/usr/lib/jvm/java-8-oracle
 export SPRING_PROFILES_ACTIVE="dev"
 export CLOUD_CONFIG_HOST="127.0.0.1"
+
+#
+## SEPA
+#
+export SEPA_REST_PROFILE="production"
+
+#
+## GPG
+#
+export GPGKEY=A7F681AC
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/home/pperez/.sdkman"
