@@ -7,3 +7,13 @@
 	default = simple
 [core]
 	excludesfile = /home/pperez/.gitignore_global
+[merge]
+	tool = kdiff3
+[mergetool "kdiff3"]
+	trustExitCode = false
+[diff]
+	guitool = kdiff3
+[difftool "kdiff3"]
+	trustExitCode = false
+[difftool]
+	prompt = false
