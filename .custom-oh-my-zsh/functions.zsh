@@ -21,7 +21,7 @@ function sepahttp {
   fi
   local URL=${SEPA_REST_ENDPOINT}$1
   shift
-  http -a $(pass show sepa/rest) $@ ${URL}
+  http -a $(pass show utem/sepa.utem.cl/rest) $@ ${URL}
 }
 
 #
