@@ -15,6 +15,9 @@ function sepahttp {
   elif [[ ${SEPA_REST_PROFILE} == "mock" ]]; then
     # Consultamos al sepa mock del 8081 en localhost
     local SEPA_REST_ENDPOINT="http://localhost:8081"
+  elif [[ ${SEPA_REST_PROFILE} == "dev" ]]; then
+    # Consultamos al sepa dentro de tomcat
+    local SEPA_REST_ENDPOINT="http://localhost:8080/rest/api/v1"
   else
     echo "No se configuro el perfil de SEPA rest"
     return 1
