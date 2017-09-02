@@ -1,8 +1,0 @@
-[tasks.default]
-  links = [
-    [".gitconfig"],
-    [".custom-oh-my-zsh"],
-    [".zshrc"],
-    [".gitignore_global"],
-    [".profile"]
-  ]
