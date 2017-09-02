@@ -8,12 +8,12 @@
 [core]
 	excludesfile = /home/pperez/.gitignore_global
 [merge]
-	tool = kdiff3
-[mergetool "kdiff3"]
-	trustExitCode = false
+        tool = p4merge
+[mergetool "p4merge"]
+        cmd = p4merge "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
+        trustExitCode = true
 [diff]
-	guitool = kdiff3
-[difftool "kdiff3"]
-	trustExitCode = false
-[difftool]
-	prompt = false
+        tool = p4merge
+[difftool "p4merge"]
+        cmd = p4merge "$LOCAL" "$REMOTE"
+
