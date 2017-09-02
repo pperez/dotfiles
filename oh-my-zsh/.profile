@@ -22,7 +22,7 @@ if [ -d "$HOME/bin" ] ; then
 fi
 
 # Modear el PATH
-export PATH="/usr/local/bin:$HOME/.local/share/apache-cxf/bin:$PATH"
+export PATH="$HOME/.npm-global/bin:$HOME/.apps/apache-maven/bin:$HOME/.apps/apache-cxf/bin:/usr/local/bin:$PATH"
 
 # Hacks para apps java en gtk, creo
 export IBUS_ENABLE_SYNC_MODE=1
