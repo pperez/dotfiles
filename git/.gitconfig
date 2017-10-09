@@ -17,3 +17,5 @@
 [difftool "p4merge"]
         cmd = p4merge "$LOCAL" "$REMOTE"
 
+[difftool]
+	prompt = false
