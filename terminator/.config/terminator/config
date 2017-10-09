@@ -1,4 +1,5 @@
 [global_config]
+  dbus = True
   geometry_hinting = False
 [keybindings]
   split_horiz = <Shift><Alt>d
